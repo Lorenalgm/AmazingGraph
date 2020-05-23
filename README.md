@@ -61,6 +61,13 @@ Feel free to use any workflow you are comfortable with :)
 Orange: #D2872C<br>
 Gray: #766F68
 
+# Design:
+Design available in `./design` path<br>
+Images available in `./assets` path<br>
+<br>
+Modelo disponível na pasta `./design`<br>
+Imagens disponíveis na pasta `./assets`<br>
+
 # Share!
 Initialize your project with this template in your github as a public repository<br>
 Capture a screenshot, gif or video and share your result in Linkedin<br>
