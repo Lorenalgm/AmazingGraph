@@ -38,7 +38,7 @@ CSS
 4 - Share your results with the community :)<br>
 <br>
 1 - Use esse template ou baixe esse repositório com o código inicial<br>
-2 - Leia as instruçes no readme.md<br>
+2 - Leia as instruções no readme.md<br>
 3 - Comece a codar!<br>
 4 - Compartilhe seu resultado com a comunidade :)<br>
 
