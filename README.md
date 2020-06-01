@@ -68,6 +68,9 @@ Images available in `./assets` path<br>
 Modelo disponível na pasta `./design`<br>
 Imagens disponíveis na pasta `./assets`<br>
 
+# Font family:
+- Roboto
+
 # Share!
 Initialize your project with this template in your github as a public repository<br>
 Capture a screenshot, gif or video and share your result in Linkedin<br>
