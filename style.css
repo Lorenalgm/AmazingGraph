@@ -1,6 +1,8 @@
 /* Estilos gerais */
 body {
   font-family: "Roboto", sans-serif, Arial, Helvetica, sans-serif;
+  width: 100%;
+  height: 100vh;
 }
 
 a,
@@ -14,17 +16,19 @@ h1 {
 }
 
 /* Navegação */
+
+
 .container {
   width: 100%;
   height: 60%;
   display: flex;
   justify-content: space-between;
-  padding-top: 40px;
+  padding-top: 1.6rem;
 }
 
 .header p {
-  font-size: 24px;
-  margin-left: 30px;
+  font-size: 1.5rem;
+  margin-left: 1.8rem;
   color: #d2872c;
 }
 
@@ -33,10 +37,10 @@ h1 {
 }
 
 .header li {
-  font-size: 20px;
+  font-size: 1.25rem;
   font-weight: 300;
-  margin: 0 20px;
-  padding: 8px 8px;
+  margin: 0 1.25rem;
+  padding: 0.5rem 0.5rem;
   color: #000;
 }
 
@@ -44,7 +48,7 @@ h1 {
   text-decoration: none;
   list-style: none;
   color: #000;
-  padding: 10px;
+  padding: 0.62rem;
 }
 .header a:hover {
   background-color: #ebebeb;
@@ -53,37 +57,39 @@ h1 {
 /* Estrutura */
 #container {
   width: 100%;
-  height: 100%;
+  height: 100vh;
   display: flex;
   flex-grow: initial;
 }
 
 .content img {
-  top: 28%;
   position: absolute;
+  margin-left: 21rem;
   width: 50%;
-  height: 60%;
-  margin-left: 28%;
+  height: 50vh;
+  top: 10rem;
+  z-index: -1;
 }
 
 .content {
-  margin: 40px 60px;
+  margin: 1.87rem 3.75rem;
   color: #474747;
 }
 .content h1 {
-  font-size: 52px;
-  margin-left: 20px;
+  font-size: 3.5rem;
+  margin-top: 5%;
+  margin-left: 1.25rem;
   letter-spacing: 1px;
 }
 
 .content p {
-  font-size: 24px;
-  margin-left: 20px;
+  font-size: 1.3em;
+  margin-left: 1.25rem;
 }
 
 .content h3 {
   color: #fff;
-  font-size: 24px;
+  font-size: 1.3em;
   letter-spacing: 2px;
 }
 
@@ -92,10 +98,40 @@ h1 {
 .btn {
   background-color: #d2872c;
   border: none;
-  border-radius: 20px;
-  width: 72%;
-  height: 18%;
-  padding-bottom: 18%;
-  margin-left: 14px;
+  border-radius: 1.25rem;
+  width: 70%;
+  height: 4vh;
+  padding-bottom: 4rem;
+  margin-left: 0.87rem;
   cursor: pointer;
+}
+
+/* Media Queries */
+
+@media (max-width: 1024px) {
+  .container {
+    width: 90%;
+  }
+}
+
+@media (max-width: 650px) {
+  .header {
+    width: 70%;
+    height: 50%;
+  }
+
+  .header ul {
+    display: inline-block;
+  }
+
+  .content img {
+    display: flex;
+    margin-left: 5%;
+    width: 80%;
+    height: 40%;
+  }
+
+  .content h1{
+    padding-top: 30%;
+  }
 }
