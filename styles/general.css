@@ -1,0 +1,14 @@
+@import url(./variables.css);
+body,
+* {
+    font-family: var(--fontFamily);
+}
+
+body {
+    overflow: hidden;
+}
+
+html,
+body {
+    height: 100%;
+}

@@ -1,0 +1,8 @@
+{
+  "name": "mazing-graph",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/douglasmatosdev/AmazingGraph.git",
+  "author": "douglasmatosdev <douglasmatosdev@gmail.com>",
+  "license": "MIT"
+}

@@ -1,0 +1,119 @@
+/* General navbar */
+
+.navbar {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5rem;
+}
+
+.navbar::after {
+    content: '';
+    position: absolute;
+    top: 100%;
+    left: 150vw;
+    width: 100vw;
+    border-bottom: 2px solid var(--orange);
+    transition: all ease-in-out 0.3s;
+}
+
+.navbar.show-menu::after {
+    content: '';
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100vw;
+    border-bottom: 2px solid var(--orange);
+}
+
+.navbar_title {
+    font-weight: 700;
+    font-size: 1.5rem;
+    color: var(--orange);
+}
+
+
+/* Menu hamburg */
+
+.navbar_menu-hamburg {
+    width: var(--menuHamburgWidth);
+    height: var(--menuHamburgHeight);
+    position: relative;
+}
+
+.navbar_menu-hamburg.list-hide::before {
+    content: '';
+    position: absolute;
+    cursor: pointer;
+    left: 0;
+    top: 5px;
+    border-top: var(--menuHamburgLines);
+    border-bottom: var(--menuHamburgLines);
+    width: var(--menuHamburgWidth);
+    height: var(--menuHamburgHeight);
+}
+
+.navbar_menu-hamburg.list-hide::after {
+    content: '';
+    position: absolute;
+    cursor: pointer;
+    left: 0;
+    top: -5px;
+    border-top: var(--menuHamburgLines);
+    border-bottom: var(--menuHamburgLines);
+    width: var(--menuHamburgWidth);
+    height: var(--menuHamburgHeight);
+}
+
+.navbar_menu-hamburg:not(.navbar_menu-hamburg.list-hide)::before {
+    content: '';
+    position: absolute;
+    cursor: pointer;
+    left: 0;
+    top: 5px;
+    width: var(--menuHamburgWidth);
+    height: var(--menuHamburgHeight);
+    border: none;
+    background: #000;
+    transform-origin: center center;
+    transform: translateY(-55%) rotate(45deg);
+}
+
+.navbar_menu-hamburg:not(.navbar_menu-hamburg.list-hide)::after {
+    content: '';
+    position: absolute;
+    cursor: pointer;
+    left: 0;
+    top: 5px;
+    width: var(--menuHamburgWidth);
+    height: var(--menuHamburgHeight);
+    border: none;
+    background: #000;
+    transform-origin: center center;
+    transform: translateY(-55%) rotate(-45deg);
+}
+
+
+/* Menu list content */
+
+.navbar_menu-list {
+    width: 100px;
+    padding: 0.5rem;
+    position: absolute;
+    top: 100%;
+    right: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    background: #fff;
+    transition: all ease-in-out 0.3s;
+}
+
+.menu-list_item:not(:last-child) {
+    margin-bottom: 6px;
+}
+
+.navbar_menu-list.list-hide {
+    right: -100%;
+}

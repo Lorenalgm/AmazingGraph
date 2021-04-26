@@ -1,0 +1,23 @@
+:root {
+    /* General */
+    --background: #fff;
+    /* Fonts */
+    --orange: #D2872C;
+    --gray: #766F68;
+    --fontFamily: 'Roboto', 'sans-serif';
+    --fontWeightNormal: 500;
+    --fontWeightSemiBold: 600;
+    --fontWeightBold: 700;
+    --titleSizeBig: 2.1rem;
+    --titleSize: 24px;
+    --subTitleSize: 18px;
+    /* Navbar */
+    --menuHamburgLines: 2px solid #000;
+    --menuHamburgWidth: 20px;
+    --menuHamburgHeight: 3px;
+    /* Button */
+    --btnBorderRadius: 10px;
+    --btnPadding: 8px 16px;
+    --btnBackground: var(--orange);
+    --btnColor: #fff;
+}
