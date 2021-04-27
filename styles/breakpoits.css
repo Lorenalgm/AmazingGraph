@@ -1,4 +1,7 @@
 @media screen and (min-width: 550px) {
+    .main-content section {
+        display: block;
+    }
     .navbar .navbar_title {
         font-size: 2rem;
     }
@@ -66,7 +69,7 @@
         margin-bottom: 2rem;
     }
     .main-content section .main-content_title {
-        font-size: 6rem;
+        font-size: 5rem;
         line-height: 6rem;
     }
     .main-content section .main-content_subtitle {
