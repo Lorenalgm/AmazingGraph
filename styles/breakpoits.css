@@ -1,7 +1,4 @@
 @media screen and (min-width: 550px) {
-    .main-content section {
-        display: block;
-    }
     .navbar .navbar_title {
         font-size: 2rem;
     }
@@ -35,6 +32,9 @@
 
 @media screen and (min-width: 720px) {
     /* Main content area */
+    .main-content section {
+        display: block;
+    }
     .main-content {
         width: 80%;
         margin: 0 auto;
