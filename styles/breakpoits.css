@@ -39,7 +39,6 @@
         flex-direction: row;
         align-items: center;
         margin-top: 4rem;
-        padding: 3rem 1rem 3rem 8rem;
     }
     .main-content section {
         padding: 0;
@@ -50,7 +49,7 @@
     .main-content section:nth-child(1) {
         width: 60%;
         position: absolute;
-        top: 27%;
+        top: 17%;
         right: 0;
     }
     .main-content section img {
@@ -64,7 +63,7 @@
     .main-content section .main-content_title,
     .main-content section .main-content_subtitle {
         text-align: left;
-        margin-bottom: 3rem;
+        margin-bottom: 2rem;
     }
     .main-content section .main-content_title {
         font-size: 6rem;
@@ -75,6 +74,7 @@
         line-height: 2.5rem;
     }
     .main-content section button {
+        margin-top: 1rem;
         width: 400px;
         font-size: 2.1rem;
         padding: 1.5rem;

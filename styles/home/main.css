@@ -6,6 +6,12 @@
     overflow: hidden;
 }
 
+.main-content section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .main-content img {
     width: 100%;
 }
