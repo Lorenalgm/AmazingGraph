@@ -1,0 +1,30 @@
+body {
+  color: var(--primary-color);
+  font-family: "Robot", sans-serif;
+}
+header {
+  margin-bottom: 10%;
+  margin-top: 10%;
+  margin-left: 10%;
+  position: relative;
+}
+h1 {
+  color: #d2872c;
+  font-size: 100pt;
+  margin-left: 10%;
+}
+
+div {
+  text-align: right;
+  margin-right: 3%;
+  justify-content: space-evenly;
+}
+span {
+  font-size: 100pt;
+}
+
+img {
+  width: 70%;
+  float: right;
+  margin-right: 10px;
+}
